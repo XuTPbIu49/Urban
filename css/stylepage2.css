@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+header {
+    background: rgb(101, 189, 211);
+    height: 65px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(7, 4, 4);
+    line-height: 65px;
+    margin: 0;
+}
+
+#menu {
+    padding: 15px;
+    margin: 5px;
+    background-color: cadetblue;
+    border-radius: 8px;
+}
+
+section {
+    display: flex;
+}
