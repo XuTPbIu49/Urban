@@ -7,8 +7,8 @@
 
 
 body {
+  width: 100%;
   display: inline-block;
-  margin: 0;
   background-color: rgb(250, 233, 212);
 }
 
@@ -23,24 +23,11 @@ h6 {
 
 .menu {
   position: fixed;
-  display: inline-block;
   width: 150px;
   height: 100%;
   padding-right: 20px;
   padding-top: 9px;
   background-color: rgba(253, 211, 160, 0.425);
-}
-
-.menuimg {
-  width: 120px;
-  margin: 10px;
-}
-
-.content {
-  padding-left: 150px;
-  padding-right: 10px;
-  margin: 20px 75%;
-
 }
 
 .menu button {
@@ -54,13 +41,26 @@ h6 {
   border: 2px solid rgba(0, 0, 0, 0);
 }
 
+.menuimg {
+  width: 120px;
+  margin: 10px;
+}
+
 .menu button:hover {
   border: 2px solid rgba(214, 163, 163, 0.575);
 }
 
+.content {
+  display: inline-block;
+  padding-left: 28%;
+  padding-right: 10px;
+  margin: 3% 5%;
+}
+
 .table {
-  width: 650px;
+  width: 850px;
   border: 1px solid black;
+
 }
 
 .title {
@@ -75,12 +75,55 @@ h6 {
 }
 
 .td1 {
-  width: 300px;
+  width: 400px;
   border-right: 1px solid black;
   font-weight: 700;
 }
 
 .tr,
 .title {
-  border: 1px solid black;  
+  border: 1px solid black;
+}
+
+.delitel {
+  width: 100%;
+  margin: 30px 0;
+}
+
+span.delitel {
+  display: block;
+  text-align: center;
+}
+
+.yandex {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.yandex img {
+  width: 850px;
+  height: 450px;
+}
+
+.text {
+  margin-left: 9%;
+  text-align: center;
+}
+
+.text p {
+  font-size: large;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.recomend img {
+  width: 60px;
+  height: 50px;
+}
+
+.recomend {
+  width: 200px;
+  height: 200;
+  margin: 30px;
+  text-align: center;
 }
